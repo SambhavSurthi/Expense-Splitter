@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/participants")
-@CrossOrigin
+@CrossOrigin("*")
 public class ParticipantController {
 	private final ParticipantService participantService;
 

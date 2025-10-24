@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/expenses")
-@CrossOrigin
+@CrossOrigin("*")
 public class ExpenseController {
 	private final ExpenseService expenseService;
 
